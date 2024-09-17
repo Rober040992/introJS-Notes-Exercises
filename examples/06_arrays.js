@@ -63,3 +63,10 @@ const getFileName = (list) => {
 };
 
 console.log(getFileName(input1));
+
+
+//nuevo metodo de arrays:
+//retorna un producto si la condicion es true
+hola.find((product) => {
+  return product.name === productName;
+});
